@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8FCE72BB288E36E300882FE9 /* HdResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCE72BA288E36E300882FE9 /* HdResult.swift */; };
+		8FCE72BF2895455800882FE9 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCE72BE2895455800882FE9 /* CameraView.swift */; };
+		8FCE72C32895717400882FE9 /* CameraModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCE72C22895717400882FE9 /* CameraModel.swift */; };
+		8FCE72C52895720C00882FE9 /* CameraService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCE72C42895720C00882FE9 /* CameraService.swift */; };
+		8FCE72C728960BA700882FE9 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8FCE72C628960BA700882FE9 /* Inceptionv3.mlmodel */; };
 		8FD4FE8A288C1C8E00B175B7 /* SeeFood_SwiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD4FE89288C1C8E00B175B7 /* SeeFood_SwiftApp.swift */; };
 		8FD4FE8C288C1C8E00B175B7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD4FE8B288C1C8E00B175B7 /* ContentView.swift */; };
 		8FD4FE8E288C1C8F00B175B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FD4FE8D288C1C8F00B175B7 /* Assets.xcassets */; };
@@ -14,6 +19,7 @@
 		8FD4FE9B288C1C8F00B175B7 /* SeeFood_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD4FE9A288C1C8F00B175B7 /* SeeFood_SwiftTests.swift */; };
 		8FD4FEA5288C1C8F00B175B7 /* SeeFood_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD4FEA4288C1C8F00B175B7 /* SeeFood_SwiftUITests.swift */; };
 		8FD4FEA7288C1C8F00B175B7 /* SeeFood_SwiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD4FEA6288C1C8F00B175B7 /* SeeFood_SwiftUITestsLaunchTests.swift */; };
+		8FD4FEB4288C1CC900B175B7 /* HotDogClassificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD4FEB3288C1CC900B175B7 /* HotDogClassificationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8FCE72BA288E36E300882FE9 /* HdResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HdResult.swift; sourceTree = "<group>"; };
+		8FCE72BE2895455800882FE9 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		8FCE72C22895717400882FE9 /* CameraModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraModel.swift; sourceTree = "<group>"; };
+		8FCE72C42895720C00882FE9 /* CameraService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraService.swift; sourceTree = "<group>"; };
+		8FCE72C628960BA700882FE9 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 		8FD4FE86288C1C8E00B175B7 /* SeeFood-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SeeFood-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FD4FE89288C1C8E00B175B7 /* SeeFood_SwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeFood_SwiftApp.swift; sourceTree = "<group>"; };
 		8FD4FE8B288C1C8E00B175B7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +55,7 @@
 		8FD4FEA0288C1C8F00B175B7 /* SeeFood-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SeeFood-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FD4FEA4288C1C8F00B175B7 /* SeeFood_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeFood_SwiftUITests.swift; sourceTree = "<group>"; };
 		8FD4FEA6288C1C8F00B175B7 /* SeeFood_SwiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeFood_SwiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8FD4FEB3288C1CC900B175B7 /* HotDogClassificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotDogClassificationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,9 +83,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8FCE72B9288E36C200882FE9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8FCE72BA288E36E300882FE9 /* HdResult.swift */,
+				8FCE72BE2895455800882FE9 /* CameraView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8FCE72C02895714700882FE9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8FCE72C22895717400882FE9 /* CameraModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8FCE72C12895715500882FE9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8FD4FEB3288C1CC900B175B7 /* HotDogClassificationController.swift */,
+				8FCE72C42895720C00882FE9 /* CameraService.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		8FD4FE7D288C1C8E00B175B7 = {
 			isa = PBXGroup;
 			children = (
+				8FCE72C628960BA700882FE9 /* Inceptionv3.mlmodel */,
 				8FD4FE88288C1C8E00B175B7 /* SeeFood-Swift */,
 				8FD4FE99288C1C8F00B175B7 /* SeeFood-SwiftTests */,
 				8FD4FEA3288C1C8F00B175B7 /* SeeFood-SwiftUITests */,
@@ -94,6 +133,9 @@
 		8FD4FE88288C1C8E00B175B7 /* SeeFood-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				8FCE72C12895715500882FE9 /* Controllers */,
+				8FCE72C02895714700882FE9 /* Models */,
+				8FCE72B9288E36C200882FE9 /* Views */,
 				8FD4FE89288C1C8E00B175B7 /* SeeFood_SwiftApp.swift */,
 				8FD4FE8B288C1C8E00B175B7 /* ContentView.swift */,
 				8FD4FE8D288C1C8F00B175B7 /* Assets.xcassets */,
@@ -257,8 +299,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FCE72BB288E36E300882FE9 /* HdResult.swift in Sources */,
 				8FD4FE8C288C1C8E00B175B7 /* ContentView.swift in Sources */,
+				8FCE72C32895717400882FE9 /* CameraModel.swift in Sources */,
 				8FD4FE8A288C1C8E00B175B7 /* SeeFood_SwiftApp.swift in Sources */,
+				8FCE72BF2895455800882FE9 /* CameraView.swift in Sources */,
+				8FCE72C728960BA700882FE9 /* Inceptionv3.mlmodel in Sources */,
+				8FD4FEB4288C1CC900B175B7 /* HotDogClassificationController.swift in Sources */,
+				8FCE72C52895720C00882FE9 /* CameraService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
